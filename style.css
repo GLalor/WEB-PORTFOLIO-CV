@@ -11,8 +11,9 @@
 
 .navbar {
     overflow: hidden;
-    position: fixed;
+    position: fixed !important;
     top: 0;
+    z-index: 1;
 }
 
 #AboutMe{
@@ -23,7 +24,7 @@
     position: relative;
     float: left;
     width:  100%;
-    height: 100%;
+    height: 250px;
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
@@ -41,4 +42,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
 }

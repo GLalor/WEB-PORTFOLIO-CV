@@ -4,13 +4,13 @@ $(document).ready(function() {
             $('.moreSkills').css("visibility", "visible");
             $('.showMore').text("Show less");
             $('.showMore').attr('class', 'showLess btn btn-info');
-            $('.skills').css('height', '690px')
+            $('.skills').css('height', '1500px')
         });
 
         $(document).on('click', '.showLess', function () {
             $('.moreSkills').css("visibility", "hidden");
             $('.showLess').text("Show more");
             $('.showLess').attr('class', 'showMore btn btn-info');
-            $('.skills').css('height', '335px')
+            $('.skills').css('height', '450px')
         });
     });

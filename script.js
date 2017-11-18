@@ -1,16 +1,15 @@
 
 $(document).ready(function() {
         $(document).on('click', '.showMore', function () {
-            $('.moreSkills').css("visibility", "visible");
             $('.showMore').text("Show less");
             $('.showMore').attr('class', 'showLess btn btn-info');
-            $('.skills').css('height', '1500px')
+            $('.skills').animate({height: '1500px'}, "slow");
         });
 
         $(document).on('click', '.showLess', function () {
-            $('.moreSkills').css("visibility", "hidden");
+            //$('.moreSkills').css("visibility", "hidden");
             $('.showLess').text("Show more");
             $('.showLess').attr('class', 'showMore btn btn-info');
-            $('.skills').css('height', '450px')
+            $('.skills').animate({height: '420px'}, "slow");
         });
     });

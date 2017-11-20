@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 
@@ -25,42 +26,46 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#aboutMe">About Me </a>
+                    <a class="nav-link anchor" href="#aboutMe">About Me </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#grades">Acedemics </a>
+                    <a class="nav-link anchor" href="#grades">Acedemics </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills </a>
+                    <a class="nav-link anchor" href="#skills">Skills </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects </a>
+                    <a class="nav-link anchor" href="#projects">Projects </a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link anchor" href="#experience">Experience </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#experience">Experience </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact </a>
+                    <a class="nav-link anchor" href="#contact">Contact </a>
                 </li>
             </ul>
         </div>
     </nav>
     <div class="home jumbotron jumbotron-fluid">
-        <div class="center">
+        <div id="home-info" class="center">
             <div class="center">
                 <h1 class="display-3">Graham Lalor</h1>
             </div>
             <div class="center">
                 <img class="headShot" src="img_avatar.png" alt="Avatar">
                 <a href="GrahamLalorCV.docx" download="GrahamLalorCV" class="btn btn-primary center col-sm-4" role="button">CV</a>
-                <button type="button" class="contact btn btn-primary center col-sm-4">Contact Me</button>
+                <button type="button" data-toggle="modal" data-target="#contactModal" class="contact btn btn-primary center col-sm-4">Contact Me</button>
             </div>
-
+            <div id="otherPages" class="center">
+                <a class="fa fa-github fa-3x"></a>
+                <a class="fa fa-linkedin fa-3x"></a>
+            </div>
         </div>
     </div>
     <div class="col-sm-4">
     </div>
     <div id="aboutMe" class="aboutMe">
+        <br><br><br>
         <div>
             <h2>About Me</h2>
             <p>
@@ -81,6 +86,7 @@
     <div class="bgimg-2">
     </div>
     <div id="grades" class="grades">
+            <br><br><br>
         <h2>Acedemics</h2>
         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
             <li class="nav-item">
@@ -486,7 +492,7 @@
             </div>
         </div>
         <br>
-        <div class="moreSkills" >
+        <div class="moreSkills">
             <div class="card-deck">
                 <div class="card col-sm-3">
                     <img class="card-img-top" src="github.png" alt="Card image cap">
@@ -582,6 +588,30 @@
 
 
     <!-- Modals -->
+    <div class="modal fade" id="contactModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Subject</label>
+                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                    </div>
+
+                    <div class="checkmark draw"></div>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
     <div class="modal fade" id="eadModal" role="dialog">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">

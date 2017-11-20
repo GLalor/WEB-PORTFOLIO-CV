@@ -12,4 +12,13 @@ $(document).ready(function() {
             $('.showLess').attr('class', 'showMore btn btn-info');
             $('.skills').animate({height: '420px'}, "slow");
         });
-    });
+
+        $(".anchor").click(function(e) {
+            e.preventDefault();
+            anchor = $(this).attr('href');
+            $("html, body").animate({
+              'scrollTop':   $(anchor).offset().top
+            }, 1000);
+        });
+
+});

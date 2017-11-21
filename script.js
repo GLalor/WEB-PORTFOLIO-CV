@@ -21,4 +21,9 @@ $(document).ready(function() {
             }, 1000);
         });
 
+        $(".navbar-nav li").on("click", function(){
+            $(".navbar-nav").find(".active").removeClass("active");
+            $(this).parent().addClass("active");
+         });
+
 });

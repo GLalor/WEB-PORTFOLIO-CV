@@ -1,0 +1,7 @@
+add search for ca
+subject modals just change to accordian for fist few
+project - screen overlay with more info
+experience - image small discription - show more info or general paragraphs
+ skills - smaller less info
+ login register if have time
+ Linked in - github smaller aligned properly

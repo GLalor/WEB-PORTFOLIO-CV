@@ -42,16 +42,25 @@
                 <li class="nav-item">
                     <a class="nav-link anchor" data-toggle="modal" data-target="#contactModal">Contact </a>
                 </li>
-                <form id="search" class="form-inline my-2 my-lg-0" action="http://www.google.com/search" method="get">
-                    <fieldset>
-                        <input type="hidden" name="sitesearch" value="https://glalor.github.io/grahamlalor.github.io/">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" maxlength="255">
-                        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-                    </fieldset>
-                </form>
+
             </ul>
+
         </div>
+        <form id="search" class="form-inline my-2 my-lg-0" action="http://www.google.com/search" method="get" style="float: right;">
+            <fieldset>
+                <input type="hidden" name="sitesearch" value="https://glalor.github.io/grahamlalor.github.io/">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" maxlength="255">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </fieldset>
+        </form>
     </nav>
+    <!-- For contact us -->
+    <div id="light" class="white_content">
+        <div id="successAlert" class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>Success!</strong> The email has been sent.
+        </div>
+    </div>
+    <div id="fade" class="black_overlay"></div>
     <div class="home jumbotron jumbotron-fluid">
         <div id="home-info" class="center">
             <div class="center">
@@ -63,8 +72,8 @@
                 <button type="button" data-toggle="modal" data-target="#contactModal" class="contact btn btn-primary center col-sm-4">Contact Me</button>
             </div>
             <div id="otherPages" class="center">
-                <a class="fa fa-linkedin fa-3x"></a>
-                <a class="fa fa-github fa-3x"></a>
+                <a class="fa fa-linkedin fa-2x" href="https://www.linkedin.com/in/grahamlalor/"></a>
+                <a class="fa fa-github fa-2x" href="https://github.com/GLalor"></a>
             </div>
         </div>
     </div>
@@ -86,7 +95,7 @@
             </p>
         </div>
     </div>
-    <div class="bgimg-2">
+    <div class="paralax-1">
     </div>
     <div id="grades" class="grades">
         <br>
@@ -463,7 +472,7 @@
             </div>
         </div>
     </div>
-    <div class="bgimg-3">
+    <div class="paralax-2">
     </div>
     <div id="skills" class="skills">
         <br>
@@ -585,7 +594,7 @@
                 </div>
             </div>
         </div>-->
-    <div class="bgimg-2">
+    <div class="paralax-3">
     </div>
     <div class="projects border border-success">
         <h2 id="projects">Projects</h2>
@@ -631,6 +640,54 @@
             </div>
         </div>
     </div>
+    <div class="paralax-4">
+    </div>
+    <div id="experience">
+        <h2>Experience</h2>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <img src="Fidelity+Investments.png" style="width: 15%">
+                <div class="float-right" >
+                    <p>
+                        <h5>Employer:</h5> Fidelity Investments
+                        <br>
+                        <h5>Job Title:</h5> Software Development Intern
+                        <br>
+                        <h5>Date:</h5> January 2017 – August 2017
+                        <br>
+                        <h5>Duties:</h5>
+                        <ul>
+                            <li>Developing in an agile environment.</li>
+                            <li>Quickly learning new tool and skills when needed.</li>
+                            <li>Developed a cross platform application and an admin tool to configure tutorials through a web
+                                browser and enable the application to download and process the information required.</li>
+                        </ul>
+                    </p>
+                </div>
+            </li>
+            <li class="list-group-item">
+                    <img src="powercity.png" style="width: 15%">
+                    <div class="float-right" >
+                        <p class="float-left">
+                            <h5>Employer:</h5> PowerCity
+                            <br>
+                            <h5>Job Title:</h5> Salesman
+                            <br>
+                            <h5>Date:</h5> February 2013 – May 2017
+                            <br>
+                            <h5>Duties:</h5>
+                            <ul>
+                                <li>Talk to customers to see if any of the items are on sale are for them or if they fix a problem they are having.</li>
+                                <li>Interacting with customers and insure that are taken care of while in the store.</li>
+                                <li>Deal with any customer problems at the help desk         . Developed a co configure tutorilication to download and process the information required</li>
+                            </ul>
+                        </p>
+                    </div>
+                </li>
+        </ul>
+    </div>
+    <div class="paralax-2">
+        </div>
     <footer id="experience" class="navbar-dark bg-dark">Thanks</footer>
     </div>
 
@@ -660,7 +717,7 @@
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-success" data-dismiss="modal">Submit</button>
+                    <button id="sendEmail" type="button" class="btn btn-success" href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Submit</button>
                 </div>
             </div>
         </div>

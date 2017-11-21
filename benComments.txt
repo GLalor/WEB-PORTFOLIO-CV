@@ -1,5 +1,5 @@
 add search for ca
-subject modals just change to accordian for fist few
+subject modals just change to popover
 project - screen overlay with more info
 experience - image small discription - show more info or general paragraphs
  skills - smaller less info

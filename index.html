@@ -36,7 +36,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link anchor" href="#projects">Projects </a>
-                </li> 
+                </li>
                 <li class="nav-item">
                     <a class="nav-link anchor" href="#experience">Experience </a>
                 </li>
@@ -49,7 +49,7 @@
     <div class="home jumbotron jumbotron-fluid">
         <div id="home-info" class="center">
             <div class="center">
-                <h1 class="display-3">Graham Lalor</h1>
+                <h1 class="name">Graham Lalor</h1>
             </div>
             <div class="center">
                 <img class="headShot" src="img_avatar.png" alt="Avatar">
@@ -57,36 +57,35 @@
                 <button type="button" data-toggle="modal" data-target="#contactModal" class="contact btn btn-primary center col-sm-4">Contact Me</button>
             </div>
             <div id="otherPages" class="center">
-                <a class="fa fa-github fa-3x"></a>
                 <a class="fa fa-linkedin fa-3x"></a>
+                <a class="fa fa-github fa-3x"></a>
             </div>
         </div>
     </div>
     <div class="col-sm-4">
     </div>
     <div id="aboutMe" class="aboutMe">
-        <br><br><br>
+        <br>
+        <br>
+        <br>
         <div>
             <h2>About Me</h2>
             <p>
-                Ad pariatur nostrud pariatur exercitation ipsum ipsum culpa mollit commodo mollit ex. Aute sunt incididunt amet commodo est
-                sint nisi deserunt pariatur do. Aliquip ex eiusmod voluptate exercitation cillum id incididunt elit sunt.
-                Qui minim sit magna Lorem id et dolore velit Lorem amet exercitation duis deserunt. Anim id labore elit adipisicing
-                ut in id occaecat pariatur ut ullamco ea tempor duis. Ad pariatur nostrud pariatur exercitation ipsum ipsum
-                culpa mollit commodo mollit ex. Aute sunt incididunt amet commodo est sint nisi deserunt pariatur do. Aliquip
-                ex eiusmod voluptate exercitation cillum id incididunt elit sunt. Qui minim sit magna Lorem id et dolore
-                velit Lorem amet exercitation duis deserunt. Anim id labore elit adipisicing ut in id occaecat pariatur ut
-                ullamco ea tempor duis. Ad pariatur nostrud pariatur exercitation ipsum ipsum culpa mollit commodo mollit
-                ex. Aute sunt incididunt amet commodo est sint nisi deserunt pariatur do. Aliquip ex eiusmod voluptate exercitation
-                cillum id incididunt elit sunt. Qui minim sit magna Lorem id et dolore velit Lorem amet exercitation duis
-                deserunt. Anim id labore elit adipisicing ut in id occaecat pariatur ut ullamco ea tempor duis.
+                As you have seen from going through my profile, I will shortly graduate with a Bachelor of Computer Science from the Institute
+                of Technology Tallaght. During my time studying there, and from several positions I have held over the last
+                five years, I have gained excellent experience in teamwork, communication skills and organisation skills.
+                I am hard-working, and have experience in effective and efficient team player, no matter what type of organisation
+                or customer-interaction scenario. I am available at your convenience to meet for interview at any time. My
+                aim is to study hard and get my degree in Computer Science and strive to reach the top of my career ladder.
             </p>
         </div>
     </div>
     <div class="bgimg-2">
     </div>
     <div id="grades" class="grades">
-            <br><br><br>
+        <br>
+        <br>
+        <br>
         <h2>Acedemics</h2>
         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
             <li class="nav-item">
@@ -460,8 +459,11 @@
     </div>
     <div class="bgimg-3">
     </div>
-    <div class="skills">
-        <h2 id="skills">Skills
+    <div id="skills" class="skills">
+        <br>
+        <br>
+        <br>
+        <h2>Skills
             <button class="showMore btn btn-info">Show more</button>
         </h2>
         <br>
@@ -591,23 +593,29 @@
     <div class="modal fade" id="contactModal" role="dialog">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
-                <form>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Subject</label>
-                        <input type="text" class="form-control" id="subject" placeholder="Subject">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
-                    </div>
-
-                    <div class="checkmark draw"></div>
-                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Submit</button>
-                </form>
+                <div class="modal-header">
+                    <h4 class="modal-title">Contact</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Subject</label>
+                            <input type="text" class="form-control" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Please type your message here..."></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Submit</button>
+                </div>
             </div>
         </div>
     </div>

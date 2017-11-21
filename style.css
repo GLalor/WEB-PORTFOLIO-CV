@@ -9,6 +9,9 @@ body {
     margin: auto;
     padding: 10%;
 }
+div{
+    height: auto;
+}
 
 .center {
     margin: auto;
@@ -27,8 +30,10 @@ body {
     padding-top: 0em !important;
     padding-bottom: 8em !important;
 }
-.display-3{
+.name{
     margin-left: 5%;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .contact{
@@ -45,10 +50,12 @@ body {
 #grades:target{
     padding-top: 65px;
 }
-
+#skills:target{
+    padding-top: 65px;
+}
 
 .skills {
-    height : 420px;
+    height : 485px;
     overflow: hidden;
 }
 
@@ -70,14 +77,14 @@ body {
     background-size: cover;
   }
   .home {
-    background-image: url("ScenicBay.png");
+    background-image: url("homeImage.jpg");
     min-height: 100%;
     margin-top: 0;
 
   }
   
   .bgimg-2 {
-    background-image: url("ScenicBay.png");
+    background-image: url("paralax1.png");
     min-height: 400px;
     opacity: 0.65;
   }

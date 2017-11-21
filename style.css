@@ -1,7 +1,16 @@
 body {
     padding-top: 60px;
   }
-
+  @media (min-width: 2000px) {
+    body {
+        margin: auto;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    .navbar {
+        padding: none;
+    }
+  }
 
 .headShot{
     border-radius: 50%;

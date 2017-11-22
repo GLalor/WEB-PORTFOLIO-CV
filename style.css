@@ -39,13 +39,6 @@ div{
     #search{
         display: none;
     }
-    .skills {
-        height : 1100px;
-        overflow: hidden;
-    }
-    .showMore{
-        display: none;
-    }
 }
 .jumbotron-fluid{
     margin-top: -0.17% !important;

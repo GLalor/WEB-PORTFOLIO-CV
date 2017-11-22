@@ -3,14 +3,14 @@ $(document).ready(function () {
     $(document).on('click', '.showMore', function () {
         $('.showMore').text("Show less");
         $('.showMore').attr('class', 'showLess btn btn-info');
-        $('.skills').animate({ height: '1500px' }, "slow");
+        $('.skills').animate({ height: '1100px' }, "slow");
     });
 
     $(document).on('click', '.showLess', function () {
         //$('.moreSkills').css("visibility", "hidden");
         $('.showLess').text("Show more");
         $('.showLess').attr('class', 'showMore btn btn-info');
-        $('.skills').animate({ height: '420px' }, "slow");
+        $('.skills').animate({ height: '380px' }, "slow");
     });
 
     $("#sendEmail").click(function () {
@@ -32,4 +32,5 @@ $(document).ready(function () {
         $(this).parent().addClass("active");
     });
 
+    $("tr[id=popover]").popover({placement:"top",trigger:"hover"});
 });

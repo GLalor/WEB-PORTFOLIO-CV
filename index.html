@@ -44,15 +44,17 @@
                 </li>
 
             </ul>
-
+            <form id="search" class="form-inline my-2 my-lg-0 " action="http://www.google.com/search" method="get" style="float: right;">
+                <fieldset>
+                    <input type="hidden" name="sitesearch" value="https://glalor.github.io/grahamlalor.github.io/">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" maxlength="255">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                </fieldset>
+            </form>
+            <button id="login" class="btn btn-outline-info my-2 my-sm-0" type="submit" style="margin-left: 5px;">Login</button>
+            <button id="register" class="btn btn-outline-info my-2 my-sm-0" type="submit" style="margin-left: 5px;">Register</button>
         </div>
-        <form id="search" class="form-inline my-2 my-lg-0" action="http://www.google.com/search" method="get" style="float: right;">
-            <fieldset>
-                <input type="hidden" name="sitesearch" value="https://glalor.github.io/grahamlalor.github.io/">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" maxlength="255">
-                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-            </fieldset>
-        </form>
+        
     </nav>
     <!-- For contact us -->
     <div id="light" class="white_content">
@@ -66,6 +68,9 @@
             <div class="center">
                 <h1 class="name">Graham Lalor</h1>
             </div>
+            <div class="center">
+                    <h4 class="name" style="margin-left: 7%;">Software Developer</h4>
+                </div>
             <div class="center">
                 <img class="headShot" src="img_avatar.png" alt="Avatar">
                 <a href="GrahamLalorCV.docx" download="GrahamLalorCV" class="btn btn-primary center col-sm-4" role="button">CV</a>
@@ -119,6 +124,7 @@
         </ul>
         <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active " id="4thYear" role="tabpanel" aria-labelledby="pills-home-tab">
+                <h6>GPA: NA</h6>
                 <table class="table table-hover">
                     <thead>
                         <tr>
@@ -182,6 +188,7 @@
                 </table>
             </div>
             <div class="tab-pane fade " id="3rdYear" role="tabpane2" aria-labelledby="pills-profile-tab">
+                    <h6>GPA: 3.36</h6>
                 <table class="table table-hover">
                     <thead>
                         <tr>
@@ -260,6 +267,7 @@
             </table>
         </div>
         <div class="tab-pane fade " id="2ndYear" role="tabpane3" aria-labelledby="pills-contact-tab">
+                <h6>GPA: 3.71</h6>
             <table class="table table-hover">
                 <thead>
                     <tr>
@@ -393,6 +401,7 @@
             </table>
         </div>
         <div class="tab-pane fade " id="1stYear" role="tabpane4" aria-labelledby="pills-contact-tab">
+                <h6>GPA: 3.79</h6>
             <table class="table table-hover">
                 <thead>
                     <tr>
@@ -719,8 +728,8 @@
         <h2>Experience</h2>
         <ul class="list-group">
             <li class="list-group-item">
-                <img src="Fidelity+Investments.png" style="width: 15%">
-                <div class="float-right">
+                <img  class="col-sm-3" src="Fidelity+Investments.png" >
+                <div class="float-right col-sm-9">
                     <p>
                         <h5>Employer:</h5> Fidelity Investments
                         <br>
@@ -739,8 +748,8 @@
                 </div>
             </li>
             <li class="list-group-item">
-                <img src="powercity.png" style="width: 15%">
-                <div class="float-right">
+                <img class="col-sm-3" src="powercity.png">
+                <div class="float-right col-sm-9">
                     <p class="float-left">
                         <h5>Employer:</h5> PowerCity
                         <br>

@@ -38,9 +38,12 @@ div{
     z-index: 1;
     white-space: nowrap;
 }
-@media (max-width: 990px) {
+@media (max-width: 1137px) {
     #search{
         display: none;
+    }
+    #login{
+        margin-left: 28% !important;
     }
 }
 .jumbotron-fluid{

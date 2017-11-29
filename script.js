@@ -13,6 +13,7 @@ $(document).ready(function () {
         $('.skills').animate({ height: '380px' }, "slow");
     });
 
+
     $("#sendEmail").click(function () {
         $('#contactModal').modal('toggle');
         $('#light').delay(2500).queue(function (next) {$(this).css('display','none'); next();});

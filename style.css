@@ -1,5 +1,5 @@
 body {
-    padding-top: 60px;
+    padding-top: 55px;
   }
   @media (min-width: 2000px) {
     body {
@@ -20,6 +20,11 @@ body {
     width: 100%;
     margin: auto;
     padding: 10%;
+}
+#home-info h1{
+}
+#home-info h4{
+    
 }
 div{
     height: auto;

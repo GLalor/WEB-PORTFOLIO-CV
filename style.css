@@ -21,11 +21,7 @@ body {
     margin: auto;
     padding: 10%;
 }
-#home-info h1{
-}
-#home-info h4{
-    
-}
+
 div{
     height: auto;
 }
@@ -79,7 +75,10 @@ div{
 #skills:target{
     padding-top: 65px;
 }
-.projects:target{
+#projects:target{
+    padding-top: 65px;
+}
+#experience:target{
     padding-top: 65px;
 }
 .skills {
@@ -164,10 +163,9 @@ div{
 .fa {
     padding: 20px;
     font-size: 4em;
-    width:2em;
     text-align: center;
     text-decoration: none;
-    border-radius: 50%;
+    border-radius: 60%;
     background: #007bb5;
     color: white;
   }

@@ -14,11 +14,11 @@ $(document).ready(function () {
     });
 
 
-    $("#sendEmail").click(function () {
-        $('#contactModal').modal('toggle');
-        $('#light').delay(2500).queue(function (next) {$(this).css('display','none'); next();});
-        $('#fade').delay(2500).queue(function (next) { $(this).css('display','none'); next();});
-    });
+    // $("#sendEmail").click(function () {
+    //     $('#contactModal').modal('toggle');
+    //     $('#light').delay(2500).queue(function (next) {$(this).css('display','none'); next();});
+    //     $('#fade').delay(2500).queue(function (next) { $(this).css('display','none'); next();});
+    // });
 
     $(".anchor").click(function (e) {
         e.preventDefault();

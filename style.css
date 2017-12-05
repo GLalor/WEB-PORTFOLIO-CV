@@ -1,16 +1,7 @@
 body {
     padding-top: 55px;
   }
-  @media (min-width: 2000px) {
-    body {
-        margin: auto;
-        padding-left: 25%;
-        padding-right: 25%;
-    }
-    .navbar {
-        padding: none;
-    }
-  }
+
 .paddingDiv{
     padding-left: 1%;
     padding-right: 1%;
